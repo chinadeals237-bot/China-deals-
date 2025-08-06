@@ -1,0 +1,6 @@
+package com.example.chinadeals  // ← remplace ici si ton package est différent
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
