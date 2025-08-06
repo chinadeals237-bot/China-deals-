@@ -1,6 +1,31 @@
-package com.example.chinadeals  // ← remplace ici si ton package est différent
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chinadeals"> <!-- Ton vrai nom de package ici -->
 
-import io.flutter.embedding.android.FlutterActivity
+    <application
+        android:label="china_deals"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
 
-class MainActivity: FlutterActivity() {
-}
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <!-- Firebase permission (si utilisé) -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+    </application>
+
+</manifest>
