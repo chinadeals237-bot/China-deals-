@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.chinadeals.app"> 
+    package="chinadeals.app">
 
     <application
         android:label="china_deals"
