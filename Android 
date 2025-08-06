@@ -1,4 +1,4 @@
-app/src/main/kotlin/china-deals-/app/Main Activity.kt package chinadeals.app
+package chinadeals.app
 
 import io.flutter.embedding.android.FlutterActivity
 
