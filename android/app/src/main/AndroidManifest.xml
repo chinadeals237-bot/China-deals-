@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.chinadeals"> <!-- Ton vrai nom de package ici -->
+    package="com.example.chinadeals"> 
 
     <application
         android:label="china_deals"
@@ -22,7 +22,6 @@
 
         </activity>
 
-        <!-- Firebase permission (si utilisé) -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@mipmap/ic_launcher" />
