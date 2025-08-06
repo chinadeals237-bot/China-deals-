@@ -1,1 +1,14 @@
-android/app/
+android/
+├── app/
+│   ├── build.gradle             ✅
+│   ├── google-services.json     
+ 
+│   └── src/
+│       └── main/
+│           └── kotlin/
+│               └── com/
+│                   └── example/
+│                       └── chinadeals/
+│                           └── MainActivity.kt  
+├── build.gradle                 
+├── settings.gradle              
