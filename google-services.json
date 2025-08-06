@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948573528174",
+    "project_id": "china-deals-603a5",
+    "storage_bucket": "china-deals-603a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948573528174:android:418cf9c464a943218e467f",
+        "android_client_info": {
+          "package_name": "Cim.chinadeals.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU-N5LpNMpov7apsGi_c9GO7U80EEtEP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948573528174:android:fb3a5fb1f1f6264f8e467f",
+        "android_client_info": {
+          "package_name": "Com.chinadeals.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU-N5LpNMpov7apsGi_c9GO7U80EEtEP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
